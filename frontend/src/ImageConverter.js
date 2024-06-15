@@ -40,7 +40,7 @@ const ImageConverter = () => {
         <option value="png">PNG</option>
       </select>
       <button onClick={handleSubmit} disabled={!file || !conversionType}>
-        {downloadUrl ? 'Download' : 'Convert Image'}
+        Convert Image
       </button>
       {downloadUrl && (
         <div>

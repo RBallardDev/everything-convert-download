@@ -1,16 +1,13 @@
 import React from 'react';
-import ApiTest from './ApiTest';
-import ImageConverter from './ImageConverter';
 import './App.css';
+import ImageConverter from './ImageConverter';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Everything Convert and Download</h1>
-        <ApiTest />
-        <ImageConverter />
-      </header>
+      <h1>Everything Convert and Download</h1>
+      <h2>Flask API Message</h2>
+      <ImageConverter />
     </div>
   );
 }
