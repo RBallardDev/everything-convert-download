@@ -5,7 +5,7 @@
       "name": "Launch Backend",
       "type": "python",
       "request": "launch",
-      "program": "${workspaceFolder}/backend/app.py",
+      "program": "${workspaceFolder}/backend/main.py",
       "console": "integratedTerminal"
     },
     {
@@ -15,6 +15,12 @@
       "program": "${workspaceFolder}/frontend/node_modules/react-scripts/scripts/start.js",
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}/frontend"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Launch Both",
+      "configurations": ["Launch Backend", "Launch Frontend"]
     }
   ]
 }
