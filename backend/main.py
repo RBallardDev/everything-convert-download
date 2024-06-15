@@ -4,7 +4,7 @@ from PIL import Image
 import os
 
 app = Flask(__name__)
-CORS(app)  # This should already be there
+CORS(app)
 
 @app.route('/')
 def home():
